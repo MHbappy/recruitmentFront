@@ -22,6 +22,7 @@
 			$scope.showmenu = function(){
 				if(mobilecheck()){
 					$scope.menu = !$scope.menu;
+
 				};
 			};
 
