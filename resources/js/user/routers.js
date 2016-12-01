@@ -4,7 +4,8 @@
 		.module('user.routers', [])
     .config(function ($stateProvider, $urlRouterProvider) {
 
-			$urlRouterProvider.when('/user/dashboard', '/user/dashboard/meeting/overview');
+    	 //$urlRouterProvider.when('/user/dashboard', '/user/dashboard/meeting/overview');
+
 
       $stateProvider
 				.state('user', {
@@ -12,6 +13,8 @@
 					url: '/user',
 					templateUrl: './resources/views/user/base.html',
 					controller: 'UserController'
+
+
 				})
 					.state('dashboard', {
 						url: '/dashboard',

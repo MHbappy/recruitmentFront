@@ -12,9 +12,11 @@ angular
     'chart.js',
     'angular-loading-bar',
     'home.controllers',
+      'recruitment.admin',
     'home.services',
     'home.routers',
     'user.services',
     'user.controllers',
-    'user.routers'
+    'user.routers',
+
   ]);

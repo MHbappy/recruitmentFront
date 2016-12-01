@@ -4,14 +4,14 @@
 		.module('home.routers', [])
     .config(function ($stateProvider, $urlRouterProvider) {
 
-      $urlRouterProvider.otherwise('/home/login');
+         // $urlRouterProvider.otherwise('/home/login');
 
       $stateProvider
         .state('home', {
           abstract: true,
           url: '/home',
           templateUrl: './resources/views/home/base.html',
-					controller: 'HomeController'
+            controller: 'HomeController'
         })
           .state('login', {
             url: '/login',
@@ -19,8 +19,6 @@
             templateUrl: './resources/views/home/login.html',
             controller: 'LoginController'
           })
-
-
     });
 
 })();
