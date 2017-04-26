@@ -7,6 +7,15 @@ I did this to learn a little more of AngularJS, and also to help the community.
 # [DEMO]
 
 # Install
+
+sudo npm install -g gulp
+npm install --save-dev gulp
+npm install gulp-jshint gulp-sass gulp-concat gulp-uglify gulp-rename --save-dev
+npm install
+install bower
+gulp(started)
+
+
 ```
 $ npm install
 $ bower install
